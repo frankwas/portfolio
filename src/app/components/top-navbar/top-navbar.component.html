@@ -1,0 +1,22 @@
+<div class="grid__container">
+    <div class="grid__item item1">
+        <div class="link__item honeycomb {{activePage === 'home' ? 'active' : ''}}" [routerLink]="['/home']">
+            Home
+        </div>
+    </div>
+    <div class="grid__item item2">
+        <div class="link__item honeycomb {{activePage === 'about' ? 'active' : ''}}" [routerLink]="['/about']">
+            About
+        </div>
+    </div>
+    <div class="grid__item item3">
+        <div class="link__item honeycomb {{activePage === 'work' ? 'active' : ''}}" [routerLink]="['/work']">
+            My Work
+        </div>
+    </div>
+    <div class="grid__item item4">
+        <div class="link__item honeycomb {{activePage === 'contact' ? 'active' : ''}}" [routerLink]="['/contact']">
+            Contact
+        </div>
+    </div>
+</div>

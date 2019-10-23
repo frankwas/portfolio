@@ -1,0 +1,51 @@
+body {
+    background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+
+    background:
+    radial-gradient(circle farthest-side at 0% 50%,$color-grey--dark 23.5%,rgba(240,166,17,0) 0)21px 30px,
+    radial-gradient(circle farthest-side at 0% 50%,$color-grey--light 24%,rgba(240,166,17,0) 0)19px 30px,
+    linear-gradient($color-grey--dark 14%,rgba(240,166,17,0) 0, rgba(240,166,17,0) 85%,$color-grey--dark 0)0 0,
+    linear-gradient(150deg,$color-grey--dark 24%,$color-grey--light 0,$color-grey--light 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,$color-grey--light 0,$color-grey--light 76%,$color-grey--dark 0)0 0,
+    linear-gradient(30deg,$color-grey--dark 24%,$color-grey--light 0,$color-grey--light 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,$color-grey--light 0,$color-grey--light 76%,$color-grey--dark 0)0 0,
+    linear-gradient(90deg,$color-grey--light 2%,$color-grey--dark 0,$color-grey--dark 98%,$color-grey--light 0%)0 0 $color-grey--dark;
+    background-size: 40px 60px;
+
+    font-family: 'Comfortaa', cursive;
+}
+
+.honeycomb {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.grid__container {
+    margin-top: 10px;
+}
+
+.content__wrapper {
+    background: #fff;
+    width: 80%;
+    height: 70%;
+    margin-top: 50px;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.1);
+    padding: 10px;
+    .content__inner {
+        background: $color-grey--dark;
+        height: 100%;
+        color: #fff;
+        .content__title {
+            text-align: center;
+            padding: 20px;
+            font-size: 2em;
+        }
+    }
+}
+
